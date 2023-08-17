@@ -11,14 +11,18 @@ body {
     padding: 0px;
 }
 .mp-container {
+    margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
     width: 79%;
-    max-width: 1450px;
+    max-width: 1429px;
     display: flex;
     flex-direction: column;
     margin-bottom: 50px;
     
+}
+.mp-container img {
+    margin-left: -10px;
 }
 .mp-columns {
     margin-left: auto;
@@ -33,7 +37,7 @@ body {
 }
 
 .mp-columns img {
-    width: 11vw!important;
+    width: 11vw;
     border-radius: 4px;
 }
 .mp-columns img:hover {
@@ -77,7 +81,16 @@ body {
 }
 .mp-header {
     margin-bottom: 20px;
-    margin-left: 20px;
+    line-height: 25px;
+}
+.mp-right-arrow {
+    display: inline-flex;
+    line-height: 0;
+    width: 8px;
+    height: 8px;
+    -webkit-transition: -webkit-transform 125ms ease-in-out;
+    transition: transform 125ms ease-in-out;
+    margin-left: 3px;
 }
 @media (max-width: 767px) {
     .mp-container {
@@ -89,7 +102,11 @@ body {
         width: 90%;
         max-width: 100%;
         gap: 15px;
-        
+        margin-top: 40px;
+    }
+    .mp-header {
+        position: absolute;
+        margin-left: 15px;
     }
     .mp-header > a > span{
         margin-left: 10px;
@@ -103,7 +120,7 @@ body {
     .naraka-image > a > img {
         width: 58vw;
     }
-    .honkai-image > a > img {
+    .honkai2-image > a > img {
         width: 58vw;
     }
     .severed-image > a > img {
@@ -134,6 +151,9 @@ body {
     .mp-price {
         font-size: 14px;
     }
+    .mp-header {
+        margin-left: -20px;
+    }
 }
 @media (min-width: 769px) and (max-width:1024px) {
     .mp-columns {
@@ -160,15 +180,21 @@ body {
     .mp-price {
         font-size: 14px;
     }
+    .mp-header {
+        margin-left: -80px;
+    }
 }
 .gwa-container {
     margin-left: auto;
     margin-right: auto;
     width: 79%;
-    max-width: 1450px;
+    max-width: 1429px;
     display: flex;
     flex-direction: column;
     margin-bottom: 50px;
+}
+.gwa-container img {
+    margin-left: -10px;
 }
 .gwa-columns {
     margin-left: auto;
@@ -226,7 +252,7 @@ body {
 }
 .gwa-header {
     margin-bottom: 20px;
-    margin-left: 20px;
+    line-height: 25px;
 }
 @media (max-width: 767px) {
     .gwa-container {
@@ -240,6 +266,11 @@ body {
         max-width: 100%;
         gap: 15px;
         margin-bottom: 40px;
+        margin-top: 40px;
+    }
+    .gwa-header {
+        position: absolute;
+        margin-left: 15px;
     }
     .gwa-header > a > span{
         margin-left: 10px;
@@ -284,6 +315,9 @@ body {
     .gwa-price {
         font-size: 14px;
     }
+    .gwa-header {
+        margin-left: -20px;
+    }
 }
 @media (min-width: 769px) and (max-width:1024px) {
     .gwa-columns {
@@ -310,16 +344,22 @@ body {
     .gwa-price {
         font-size: 14px;
     }
+    .gwa-header {
+        margin-left: -80px;
+    }
 }
 .ru-container {
     margin-left: auto;
     margin-right: auto;
     width: 79%;
-    max-width: 1450px;
+    max-width: 1429px;
     display: flex;
     flex-direction: column;
     margin-bottom: 50px;
     
+}
+.ru-container img {
+    margin-left: -10px;
 }
 .ru-columns {
     margin-left: auto;
@@ -378,7 +418,7 @@ body {
 }
 .ru-header {
     margin-bottom: 20px;
-    margin-left: 20px;
+    line-height: 25px;
 }
 @media (max-width: 767px) {
     .ru-container {
@@ -391,6 +431,11 @@ body {
         max-width: 100%;
         gap: 15px;
         margin-bottom: 20px;
+        margin-top: 40px;
+    }
+    .ru-header {
+        position: absolute;
+        margin-left: 15px;
     }
     .ru-header > a > span{
         margin-left: 10px;
@@ -435,6 +480,9 @@ body {
     .ru-price {
         font-size: 14px;
     }
+    .ru-header {
+        margin-left: -20px;
+    }
 }
 @media (min-width: 769px) and (max-width:1024px) {
     .ru-columns {
@@ -461,16 +509,22 @@ body {
     .ru-price {
         font-size: 14px;
     }
+    .ru-header {
+        margin-left: -80px;
+    }
 }
 .now-container {
     margin-left: auto;
     margin-right: auto;
     width: 79%;
-    max-width: 1450px;
+    max-width: 1429px;
     display: flex;
     flex-direction: column;
     margin-bottom: 50px;
     
+}
+.now-container img {
+    margin-left: -10px;
 }
 .now-columns {
     margin-left: auto;
@@ -529,7 +583,7 @@ body {
 }
 .now-header {
     margin-bottom: 20px;
-    margin-left: 20px;
+    line-height: 25px;
 }
 @media (max-width: 767px) {
     .now-container {
@@ -542,6 +596,11 @@ body {
         max-width: 100%;
         gap: 15px;
         margin-bottom: 20px;
+        margin-top: 40px;
+    }
+    .now-header {
+        position: absolute;
+        margin-left: 15px;
     }
     .now-header > a > span{
         margin-left: 10px;
@@ -586,6 +645,9 @@ body {
     .now-price {
         font-size: 14px;
     }
+    .now-header {
+        margin-left: -20px;
+    }
 }
 @media (min-width: 769px) and (max-width:1024px) {
     .now-columns {
@@ -611,5 +673,8 @@ body {
     }
     .now-price {
         font-size: 14px;
+    }
+    .now-header {
+        margin-left: -80px;
     }
 }
