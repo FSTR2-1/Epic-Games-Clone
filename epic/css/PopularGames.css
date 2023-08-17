@@ -1,0 +1,204 @@
+* {
+    font-family: 'Inter', sans-serif;
+}
+html {
+    width: 100vw;
+}
+body {
+    width: 100vw;
+    margin: 0px;
+    background-color: rgb(18, 18, 18);
+    padding: 0px;
+}
+.pg-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 79%;
+    max-width: 1429px;
+    display: flex;
+    flex-direction: row;   
+}
+.pg-rows {
+    margin-left: -15px;
+    margin-right: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+.fc24 {
+    justify-content: center;
+    margin: 10px 0px 0px;
+    padding: 0px 32px;
+    max-width: 100%;
+    
+}
+.honkai {
+    justify-content: center;
+    margin: 10px 0px 0px;
+    padding: 0px 32px;
+    max-width: 100%;
+}
+.dungeon {
+    justify-content: center;
+    margin: 10px 0px 0px;
+    padding: 0px 32px;
+    max-width: 100%;
+}
+.fc24-image > a > img{
+    width: 24vw;
+    border-radius: 16px;
+} 
+.honkai-image a > img{
+    width: 24vw;
+    border-radius: 16px;
+}
+.dungeon-image a > img{
+    width: 24vw;
+    border-radius: 16px;
+}
+.pg-header > a > p{
+    color: #F5F5F5;
+    font-size: 22px;
+}
+.pg-header > a {
+    text-decoration: none;
+}
+.pg-header > a:visited {
+    color: #F5F5F5;
+}
+.pg-text {
+    margin-top: 10px;
+    color: #F5F5F599;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}
+.pg-price > a > p {
+    color: #F5F5F5;
+    font-size: 22px;
+    line-height: 25px;
+    letter-spacing: -0.2px;
+}
+.fc24-price {
+    margin-top: 27px;
+    font-size: 22px;
+}
+.pg-price > a:visited {
+    color: #F5F5F5;
+}
+.pg-price > a {
+    text-decoration-color:rgb(49, 44, 44);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 7px;
+}
+.pg-price > a:hover {
+    text-decoration-color: #FFFFFF;
+}
+.fc24-image > a > img:hover {
+    opacity: 0.85;
+}
+.honkai-image > a > img:hover {
+    opacity: 0.85;
+}
+.dungeon-image > a > img:hover {
+    opacity: 0.85;
+}
+.pg-radio {
+    display: none;
+}
+@media (max-width: 767px) {
+
+    .pg-radio {
+        gap: 10px;
+        font-size: 10px;
+        display: flex;
+        position: absolute;
+        margin-top: 375px;
+        margin-left: 160px;
+    }
+    #radio1 {
+        color: white;
+    }
+    #radio2 {
+        color: gray;
+    }
+    .pg-container {
+        width: 100%;
+        overflow: scroll;
+    }
+    .pg-rows {
+        display: -webkit-inline-box;
+        gap: 15px;
+        width: 80%;
+        margin-left: 15px;
+    }
+    .fc24 {
+        margin-top: auto;
+        padding: 0px 25px;
+    }
+    .fc24-image > a > img{
+        width: 100%;
+    }
+    .honkai-image > a > img{
+        width: 100%;
+    }
+    .dungeon-image > a > img{
+        width: 100%;
+    }
+    .pg-header > a > p {
+        font-size: 18px;
+    }
+    .pg-text {
+        margin-top: 10px;
+        font-size: 14px;
+    }
+    .pg-price > p {
+        font-size: 18px;
+    }
+    .fc24-price {
+        margin-top: 27px;
+    }
+    .honkai {
+        margin-top: auto;
+        padding: 0px 25px;
+    }
+    .dungeon {
+        margin-top: auto;
+        padding: 0px 25px;
+    }
+}
+@media (min-width:1600px) {
+    .pg-header {
+        font-size: 22px;
+        line-height: 30px;
+        letter-spacing: -0.4px;
+    }
+    .pg-text {
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0;
+    }
+}
+@media (min-width: 1440px) and (max-width:1599px) {
+    .pg-header {
+        font-size: 18px;
+        line-height: 25px;
+        letter-spacing: -0.2px;
+    }
+    .pg-price {
+        font-size: 22px;
+        line-height: 30px;
+        letter-spacing: -0.5px;
+    }
+}
+@media (min-width: 1024px) and (max-width:1439px) {
+    .pg-header {
+        font-size: 16px;
+        line-height: 25px;
+        letter-spacing: -0.2px;
+    }
+}
