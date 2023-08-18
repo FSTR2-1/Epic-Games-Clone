@@ -1,0 +1,219 @@
+* {
+    font-family: 'Inter', sans-serif;
+}
+html {
+    width: 100vw;
+}
+body {
+    width: 100vw;
+    margin: 0px;
+    background-color: rgb(18, 18, 18);
+    padding: 0px;
+}
+.trn-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 79%;
+    max-width: 1429px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.trn-columns {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+    line-height: 1.8;
+    letter-spacing: 0.2px;
+}
+.slavic2 {
+    margin-left: 10px;
+}
+.nexus2 {
+    margin-left: 10px;
+}
+.hifi {
+    margin-left: 10px;
+}
+.paladins {
+    margin-left: 10px;
+}
+.theimpossible {
+    margin-left: 10px;
+}
+.trn-columns img {
+    width: 14.2vw;
+    border-radius: 4px;
+}
+.trn-columns img:hover {
+    opacity: 0.85;
+}
+.base-game {
+    margin-top: 13px;
+    color: #F5F5F599;
+    font-size: 11px;
+    font-weight: 500;
+}
+.trn-head {
+    color: #F5F5F5;
+    font-size: 16px;
+    text-wrap: wrap;
+}
+.now-on-epic {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 0.1px #FFFFFF1A;
+    border-radius: 3px;
+    background-color: #FFFFFF1A;
+    color: #F5F5F5;
+    font-size: 11px;
+    font-weight: 500;
+    text-align: center;
+    width: 50%;
+}
+.trn-price {
+    color: #F5F5F5;
+    font-size: 16px;
+}
+.trn-header > span{
+    color: #F5F5F5;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.trn-trending {
+    flex: auto;
+}
+.trn-viewmore {
+    display: block;
+    margin-top: 6px;
+    color: #F5F5F5;
+    font-size: 11px;
+    padding: 0px 15px;
+    font-weight: 500;
+}
+.trn-header > a > h2 {
+    margin: 10px;
+    border: 1px solid #F5F5F5;
+    border-radius: 3px;
+    height: 28px;
+}
+.trn-header > a {
+    text-decoration: none;
+    margin-right: -10px;
+}
+.trn-header > a > h2:hover {
+    border-color: #F5F5F599;
+}
+
+.trn-header {
+    display: flex;
+    flex-direction: row;
+    
+}
+@media (max-width: 767px) {
+    .trn-container {
+        width: 100%;
+        overflow: scroll;
+    }
+    .trn-columns {
+        display: -webkit-inline-box;
+        grid-template-columns: auto;
+        width: 90%;
+        max-width: 100%;
+        gap: 5px;
+        margin-left: unset;
+        margin-top: 50px;
+    }
+    .trn-header {
+        position: absolute;
+        gap: 130px;
+    }
+    .base-game {
+        font-size: 9px;
+    }
+    .trn-head {
+        font-size: 14px;
+    }
+    .now-on-epic {
+        font-size: 11px;
+    }
+    .trn-header > a > span{
+        margin-left: 10px;
+    }
+    .slavic2-image > a > img {
+        width: 58vw;
+    }
+    .nexus2-image > a > img {
+        width: 58vw;
+    }
+    .hifi-image > a > img {
+        width: 58vw;
+    }
+    .paladins-image > a > img {
+        width: 58vw;
+    }
+    .theimpossible-image > a > img {
+        width: 58vw;
+    }
+    
+}
+@media (min-width:1025px) and (max-width:1600px) {
+    
+    .trn-columns img {
+        width: 14vw;
+    }
+    .trn-column6 {
+        display: none;
+    }
+    .base-game {
+        font-size: 9px;
+    }
+    .trn-head {
+        font-size: 14px;
+    }
+    .now-on-epic {
+        font-size: 9px;
+    }
+    .trn-price {
+        font-size: 14px;
+    }
+}
+@media (min-width: 769px) and (max-width:1024px) {
+    .trn-columns {
+        gap: 5px;
+        margin-left: -10px;
+    }
+    .trn-header {
+        margin-left: -100px;
+    }
+    .trn-header > a {
+        margin-right: -90px;
+    }
+    .trn-columns img {
+        width: 23vw;
+    }
+    .trn-column5 {
+        display: none;
+    }
+    .trn-column6 {
+        display: none;
+    }
+    .base-game {
+        font-size: 9px;
+    }
+    .trn-head {
+        font-size: 14px;
+    }
+    .now-on-epic {
+        font-size: 9px;
+    }
+    .trn-price {
+        font-size: 14px;
+    }
+}

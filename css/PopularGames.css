@@ -14,17 +14,17 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 79%;
-    max-width: 1600px;
+    max-width: 1429px;
     display: flex;
     flex-direction: row;   
 }
 .pg-rows {
-    margin-left: auto;
+    margin-left: -15px;
     margin-right: auto;
     width: 100%;
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    gap: 10px;
     margin-top: 50px;
 }
 
@@ -59,7 +59,7 @@ body {
     width: 24vw;
     border-radius: 16px;
 }
-.pg-header {
+.pg-header > a > p{
     color: #F5F5F5;
     font-size: 22px;
 }
@@ -70,17 +70,22 @@ body {
     color: #F5F5F5;
 }
 .pg-text {
+    margin-top: 10px;
     color: #F5F5F599;
     font-size: 14px;
     font-weight: normal;
     line-height: 20px;
     letter-spacing: 0.2px;
 }
-.pg-price {
+.pg-price > a > p {
     color: #F5F5F5;
-    font-size: 18px;
+    font-size: 22px;
     line-height: 25px;
     letter-spacing: -0.2px;
+}
+.fc24-price {
+    margin-top: 27px;
+    font-size: 22px;
 }
 .pg-price > a:visited {
     color: #F5F5F5;
@@ -132,8 +137,8 @@ body {
         margin-left: 15px;
     }
     .fc24 {
-        margin: 20px 0px 0px;
-        padding: 0px 15px;
+        margin-top: auto;
+        padding: 0px 25px;
     }
     .fc24-image > a > img{
         width: 100%;
@@ -144,22 +149,26 @@ body {
     .dungeon-image > a > img{
         width: 100%;
     }
-    .pg-header {
+    .pg-header > a > p {
         font-size: 18px;
     }
     .pg-text {
+        margin-top: 10px;
         font-size: 14px;
     }
-    .pg-price {
+    .pg-price > p {
         font-size: 18px;
     }
+    .fc24-price {
+        margin-top: 27px;
+    }
     .honkai {
-        margin: 20px 0px 0px;
-        padding: 0px 15px;
+        margin-top: auto;
+        padding: 0px 25px;
     }
     .dungeon {
-        margin: 20px 0px 0px;
-        padding: 0px 15px;
+        margin-top: auto;
+        padding: 0px 25px;
     }
 }
 @media (min-width:1600px) {

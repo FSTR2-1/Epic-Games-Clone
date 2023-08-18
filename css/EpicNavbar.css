@@ -1,5 +1,5 @@
 * {
-    font-family: Inter, sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 html {
     width: 100vw;
@@ -11,6 +11,7 @@ body {
     padding: 0;
 }
 .navbar {
+    line-height: 18px;
     width: 100vw;
     height: 51.8px;
     background-color: #2A2A2A;
@@ -154,15 +155,32 @@ body {
 
 .store:hover {
     color: #FFFFFF;
+    border: 5px solid #0078F2;
+    border-top-color: #2A2A2A;
+    border-right: none;
+    border-left: none;
 }
+
 .distribution:hover {
     color: #FFFFFF;
+    border: 5px solid #0078F2;
+    border-top-color: #2A2A2A;
+    border-right: none;
+    border-left: none;
 }
 .support:hover {
     color: #FFFFFF;
+    border: 5px solid #0078F2;
+    border-top-color: #2A2A2A;
+    border-right: none;
+    border-left: none;
 }
 .unrealengine:hover {
     color: #FFFFFF;
+    border: 5px solid #0078F2;
+    border-top-color: #2A2A2A;
+    border-right: none;
+    border-left: none;
 }
 .language:hover {
     color: #FFFFFF;
@@ -208,8 +226,6 @@ body {
     }
     .bar-3 {
         display: flex;
-        
-
     }
 
 }
