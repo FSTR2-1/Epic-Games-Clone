@@ -125,6 +125,7 @@ body {
     .lta-container {
         width: 100%;
         overflow: scroll;
+        margin-top: -80px;
     }
     .lta-rows {
         display: -webkit-inline-box;

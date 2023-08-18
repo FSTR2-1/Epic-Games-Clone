@@ -83,6 +83,9 @@ body {
     margin-bottom: 20px;
     line-height: 25px;
 }
+.section-title {
+    margin-left: 10px;
+}
 @media (max-width: 767px) {
     .mp-container {
         width: 100%;
@@ -93,11 +96,14 @@ body {
         width: 90%;
         max-width: 100%;
         gap: 15px;
-        margin-top: 40px;
+        margin-top: 20px;
     }
-    .mp-header {
+    .section-title {
         position: absolute;
         margin-left: 15px;
+    }
+    .carousel-arrow-container {
+        display: none;
     }
     .mp-header > a > span{
         margin-left: 10px;
@@ -245,6 +251,9 @@ body {
     margin-bottom: 20px;
     line-height: 25px;
 }
+.section-title {
+    margin-left: 10px;
+}
 @media (max-width: 767px) {
     .gwa-container {
         margin-top: 20%;
@@ -257,11 +266,14 @@ body {
         max-width: 100%;
         gap: 15px;
         margin-bottom: 40px;
-        margin-top: 40px;
+        margin-top: 20px;
     }
-    .gwa-header {
+    .section-title {
         position: absolute;
         margin-left: 15px;
+    }
+    .carousel-arrow-container {
+        display: none;
     }
     .gwa-header > a > span{
         margin-left: 10px;
@@ -411,6 +423,9 @@ body {
     margin-bottom: 20px;
     line-height: 25px;
 }
+.section-title {
+    margin-left: 10px;
+}
 @media (max-width: 767px) {
     .ru-container {
         width: 100%;
@@ -422,11 +437,14 @@ body {
         max-width: 100%;
         gap: 15px;
         margin-bottom: 20px;
-        margin-top: 40px;
+        margin-top: 20px;
     }
-    .ru-header {
+    .section-title {
         position: absolute;
         margin-left: 15px;
+    }
+    .carousel-arrow-container {
+        display: none;
     }
     .ru-header > a > span{
         margin-left: 10px;
@@ -576,6 +594,9 @@ body {
     margin-bottom: 20px;
     line-height: 25px;
 }
+.section-title {
+    margin-left: 10px;
+}
 @media (max-width: 767px) {
     .now-container {
         width: 100%;
@@ -587,11 +608,14 @@ body {
         max-width: 100%;
         gap: 15px;
         margin-bottom: 20px;
-        margin-top: 40px;
+        margin-top: 20px;
     }
-    .now-header {
+    .section-title {
         position: absolute;
         margin-left: 15px;
+    }
+    .carousel-arrow-container {
+        display: none;
     }
     .now-header > a > span{
         margin-left: 10px;
