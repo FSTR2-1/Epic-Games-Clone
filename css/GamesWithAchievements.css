@@ -83,15 +83,6 @@ body {
     margin-bottom: 20px;
     line-height: 25px;
 }
-.mp-right-arrow {
-    display: inline-flex;
-    line-height: 0;
-    width: 8px;
-    height: 8px;
-    -webkit-transition: -webkit-transform 125ms ease-in-out;
-    transition: transform 125ms ease-in-out;
-    margin-left: 3px;
-}
 @media (max-width: 767px) {
     .mp-container {
         width: 100%;
