@@ -36,6 +36,7 @@ body {
   -webkit-justify-content: space-between;
   justify-content: space-between;
   margin: 0 16px 18px;
+  margin-bottom: 20px;
 }
 
 @media (min-width: 768px) {
@@ -107,6 +108,7 @@ body {
   display: flex;
   flex-wrap: nowrap;
   overflow: hidden;
+  margin-top: 40px;
 }
 
 .carousel-item {
