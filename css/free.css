@@ -1,7 +1,7 @@
 .free-ga {
   margin: 0;
   padding: 0;
-  font-family: Inter, sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 14px;
   font-weight: normal;
   line-height: 20px;
@@ -24,6 +24,7 @@
   align-items: right;
 }
 .free-y-games {
+  gap: 30px;
   padding: 5px;
   padding-top: 20px;
   display: flex;
@@ -81,7 +82,7 @@
   text-align: center;
   color: whitesmoke;
 }
-.fa-solid {
+.fre-fa {
   font-size: 30px;
   color: rgb(245, 245, 245);
   padding-left: 10px;
