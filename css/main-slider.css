@@ -119,3 +119,63 @@
   text-align: center;
   padding: 20px;
 }
+
+.d-hide {
+  display: none!important;
+}
+
+@media (max-width: 767px) {
+  .mbl-hide {
+    display: none;
+  }
+}
+
+.main-slider-mobile {
+  margin: 20px 0px 40px !important;
+  overflow: hidden !important;
+}
+
+.main-slider-mobile .mp-column1 .bg-image {
+  background-image: url(https://cdn2.unrealengine.com/gamescom-carousel-mobile-1200x1600-db4e80da4ad6.jpg?h=854&quality=medium&resize=1&w=640);
+  width: 283px;
+  height: 378px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 30px 20px;
+}
+.main-slider-mobile .mp-column2 .bg-image {
+  background-image: url(https://cdn2.unrealengine.com/egs-destiny-2-tfs-carousel-mobile-1200x1600-f6921fc315be.png?h=854&quality=medium&resize=1&w=640);
+  width: 283px;
+  height: 378px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+}
+
+.msm-title {
+  font-size: 9px;
+  font-weight: 700;
+  color: #f5f5f5;
+}
+
+.msm-subtitle {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  color: #f5f5f5;
+}
+
+.main-slider-mobile .pg-radio {
+  gap: 10px;
+  font-size: 4px;
+  display: flex;
+  position: absolute;
+  margin-top: 410px;
+  width: 100%;
+  justify-content: center;
+  margin-left: unset;
+}
