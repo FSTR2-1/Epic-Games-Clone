@@ -1,0 +1,217 @@
+* {
+    font-family: 'Inter', sans-serif;
+}
+html {
+    width: 100vw;
+}
+body {
+    width: 100vw;
+    margin: 0px;
+    background-color: rgb(18, 18, 18);
+    padding: 0px;
+}
+.news-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 79%;
+    max-width: 1450px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.news-columns {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    line-height: 20;
+}
+.news-columns img {
+    width: 36.3vw;
+    border-radius: 4px;
+}
+.news-columns img:hover {
+    opacity: 0.85;
+}
+.news-header > h2 {
+    color: #F5F5F5;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.news-ago1 {
+    color: #F5F5F599;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 20px;
+}
+.news-head1 {
+    color: #F5F5F5;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}
+.news-text1 {
+    color: #F5F5F599;
+    font-size: 14px;
+    line-height: 20px;
+}
+.news-read1 {
+    color: #F5F5F5;
+    font-size: 14px;
+    line-height: 20px;
+}
+.news3 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 15px;
+    margin-left: auto;
+}
+.news2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 15px;
+    margin-left: auto;
+}
+.news-read1 > a {
+    text-decoration-color:rgb(49, 44, 44);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 4px;
+    
+}
+.news-read1 > a:hover {
+    text-decoration-color: #FFFFFF;
+    transition: ease-in 0.3s;
+}
+.news-read1 > a:visited {
+    color: #F5F5F5;
+}
+.news-rows img {
+    width: 200px;
+    border-radius: 6px;
+    margin-top: 15px;
+}
+.news-row1 {
+    display: flex;
+    margin-top: 10px;
+}
+.news1 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 15px;
+    margin-left: 20px;
+}
+.line {
+    border-bottom: 1px solid rgb(61, 57, 57);
+    margin-top: 15px;
+}
+.news-ago {
+    color: #F5F5F599;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 20px;
+}
+.news-head {
+    color: #F5F5F5;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: -10px;
+}
+.news-text {
+    color: #F5F5F599;
+    font-size: 16px;
+    line-height: 20px;
+}
+.news-read {
+    color: #F5F5F5;
+    font-size: 16px;
+    line-height: 20px;
+}
+.news-read > a {
+    text-decoration-color:rgb(49, 44, 44);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 4px;
+    
+}
+.news-read > a:hover {
+    text-decoration-color: #FFFFFF;
+    transition: ease-in 0.3s;
+}
+.news-read > a:visited {
+    color: #F5F5F5;
+}
+@media (max-width: 767px) {
+    .news-container {
+        width: 90%;
+    }
+    .news-columns {
+        display: initial;
+    }
+    .news-columns img {
+        width: 90vw;
+        border-radius: 4px;
+    }
+    .news-row1 {
+        display: initial;
+    }
+    .news-rows img {
+        width: 85vw;
+        height: unset;
+        border-radius: 6px;
+        margin-top: 20px;
+    }
+    .news-ago1 {
+        font-size: 9px;
+    }
+    .news-head1 {
+        
+    }
+    .news-text1 {
+        margin-bottom: 15px;
+    }
+    .news-read1 {
+        margin-bottom: 10px;
+    }
+    .news1 {
+        margin-left: 0px;
+    }
+    .news-ago {
+        color: #F5F5F599;
+        font-weight: 500;
+        font-size: 9px;
+        line-height: 20px;
+    }
+    .news-head {
+        color: #F5F5F5;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: -10px;
+    }
+    .news-text {
+        color: #F5F5F599;
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+    .news-read {
+        color: #F5F5F5;
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+}
+.numbers {
+    color: #F5F5F599;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+}
