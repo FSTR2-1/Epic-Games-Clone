@@ -1,11 +1,21 @@
-.x {
+body {
+  padding: 0;
   margin: 0;
-  background-color: black;
 }
-.search {
+.nav-x {
+  height: 80px;
+  background-color: black;
+  position: sticky;
+  top: 0;
+  padding-top: 20px;
+}
+.search-nav {
+  width: 80%;
+  align-items: center;
   padding-left: 10%;
   padding-top: 20px;
   height: 40%;
+  padding-bottom: 10px;
 }
 .search-nav {
   width: calc(100%-80px);
@@ -18,20 +28,20 @@
   border-color: whitesmoke;
   text-decoration: none;
 }
-a {
+.nav-x a {
   text-decoration: none;
   color: #3f3f3f;
   padding-left: 10px;
 }
-a:hover {
+.nav-x a :hover {
   color: whitesmoke;
 }
 
-.search {
+.search-nav {
   background-color: black;
   display: flex;
 }
-.search-main {
+.search-main-nav {
   background-color: #3f3f3f;
   height: 30px;
   display: flex;
@@ -49,16 +59,24 @@ a:hover {
   font-size: 16px;
   transition: 1s;
 }
+.itemx-discover a {
+  color: whitesmoke;
+}
 .btn-search {
   display: flex;
   justify-content: center;
   align-items: center;
   color: whitesmoke;
-  font-size: 16px;
+  font-size: 10px;
   float: left;
   width: 20px;
   height: 20px;
   border-radius: 20px;
+  padding-right: 30px;
+}
+
+.sub-menu {
+  display: none;
 }
 @media (max-width: 600px) {
   .tbox-search {
@@ -68,5 +86,25 @@ a:hover {
     .tbox-search {
       width: 200px;
     }
+  }
+  .search-nav .itemx-discover:hover .sub-menu {
+    list-style: none;
+    color: #3f3f3f;
+    display: block;
+  }
+  .search-nav .itemx-discover:hover .sub-menu ul {
+    list-style: none;
+  }
+  .search-nav .itemx-discover:hover .sub-menu ul a {
+    color: #3f3f3f;
+  }
+  .search-nav .itemx-discover:hover .sub-menu ul a:hover {
+    color: whitesmoke;
+  }
+  .search-nav .itemx-browse {
+    display: none;
+  }
+  .search-nav .itemx-news {
+    display: none;
   }
 }
