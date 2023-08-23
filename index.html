@@ -27,12 +27,13 @@
     <link rel="stylesheet" href="css/GamesWithAchievements.css" />
     <link rel="stylesheet" href="css/LastThreeApp.css" />
     <link rel="stylesheet" href="css/Trending.css">
+    <link rel="stylesheet" href="css/free.css">
     <!-- //CSS -->
     <title>Document</title>
   </head>
   <body>
     <!-- navbar -->
-    <div class="navbar">
+    <div class="navbar" id="navbar">
       <nav>
         <ul>
           <li class="logo">
@@ -75,36 +76,57 @@
     </div>
     <!-- navbar END -->
     <!-- Search -->
-    <div class="x">
-      <div class="search">
-        <div class="search-main">
-          <input type="text" class="tbox-search" placeholder="Search store" />
+    <div class="nav-x">
+      <div class="search-nav">
+        <div class="search-main-nav">
           <a class="btn-search">
-            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-magnifying-glass nav-fa"></i>
           </a>
+          <input type="text" class="tbox-search" placeholder="Search store" />
         </div>
         <nav class="search-nav">
-          <li class="itemx">
-            <a href="https://store.epicgames.com/en-US/">Discover</a>
-          </li>
-          <li class="itemx">
-            <a
-              href="https://store.epicgames.com/en-US/browse?sortBy=releaseDate&sortDir=DESC&category=Game&count=40"
-              >Browse</a
-            >
-          </li>
-          <li class="itemx">
-            <a
-              href="https://store.epicgames.com/en-US/browse?sortBy=releaseDate&sortDir=DESC&category=Game&count=40"
-              >News</a
-            >
-          </li>
+          <ul>
+            <li class="itemx itemx-discover">
+              <a href="#">Discover</a>
+              <div class="sub-menu">
+                <ul>
+                  <li>
+                    <a href="https://store.epicgames.com/en-US/">Discover</a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://store.epicgames.com/en-US/browse?sortBy=releaseDate&sortDir=DESC&category=Game&count=40"
+                      >Browse</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://store.epicgames.com/en-US/browse?sortBy=releaseDate&sortDir=DESC&category=Game&count=40"
+                      >News</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="itemx itemx-browse">
+              <a
+                href="https://store.epicgames.com/en-US/browse?sortBy=releaseDate&sortDir=DESC&category=Game&count=40"
+                >Browse</a
+              >
+            </li>
+            <li class="itemx itemx-news">
+              <a
+                href="https://store.epicgames.com/en-US/browse?sortBy=releaseDate&sortDir=DESC&category=Game&count=40"
+                >News</a
+              >
+            </li>
+          </ul>
         </nav>
       </div>
     </div>
     <!-- search END -->
-    <!-- Main Slider -->
-    <section class="main-slider">
+    <!-- Main Slider Desktop-->
+    <section class="main-slider mbl-hide">
       <div class="container d-flex">
         <div class="big-col">
           <div class="highlited-items">
@@ -184,7 +206,33 @@
         </div>
       </div>
     </section>
-    <!-- Main Slider END-->
+    <!-- Main Slider Desktop END-->
+    <!-- Main Slider Mobile -->
+    <div class="mp-container main-slider-mobile d-hide">
+      <div class="mp-columns">
+        <div class="mp-column1">
+          <div class="bg-image">
+            <div class="msm-title">GAMING EVENT OF THE YEAR</div>
+            <div class="msm-subtitle">Get the latest breaking news and announcements and stay ahead of the game.</div>
+          </div>
+        </div>
+        <div class="mp-column2">
+          <div class="bg-image">
+            <div class="msm-title"></div>
+            <div class="msm-subtitle"></div>
+          </div>
+        </div>
+      </div>
+      <div class="pg-radio">
+        <i class="fa-solid fa-circle-dot" id="radio1"></i>
+        <i class="fa-solid fa-circle-dot" id="radio2"></i>
+        <i class="fa-solid fa-circle-dot" id="radio2"></i>
+        <i class="fa-solid fa-circle-dot" id="radio2"></i>
+        <i class="fa-solid fa-circle-dot" id="radio2"></i>
+        <i class="fa-solid fa-circle-dot" id="radio2"></i>
+    </div>
+    </div>
+    <!-- Main Slider Mobile END-->
     <!-- Summer Spotlight -->
     <section class="section summer-spotlight">
       <div class="container">
@@ -593,226 +641,310 @@
       
   </div>
     <!-- Popular Games END-->
-        <!-- 3 column row -->
-        <div class="lta-container new-row">
-          <div class="lta-rows">
-              <div class="lta-row1">
-                <div class="new-row-title">
-                  <h2 class="new-row-title-text">Top Sellers</h2>
-                  <a class="new-row-title-button-link" href=""><span class="new-row-title-button">View More</span></a>
+      <!-- Free Games -->
+      <div class="free-ga">
+        <div class="free-x">
+          <section class="free-Games">
+            <div class="games-title">
+              <ul>
+                <li><i class="fa-solid fa-gift fre-fa"></i></li>
+                <li>
+                  <h3 class="free-title-f">Free Games</h3>
+                </li>
+  
+                <li class="view"><a href="#" class="view-a">View More</a></li>
+              </ul>
+            </div>
+  
+
+          
+            <div class="free-y-games">
+              <div class=".games-free-x">
+                <div class="o-free-games">
+                  <div class="black">
+                    <img
+                      class="img"
+                      src="https://cdn1.epicgames.com/offer/4311a0ee99724086b1a4f261b827d038/EGS_HomeworldRemasteredCollection_GearboxSoftware_S2_1200x1600-1cae8117d05be2d91d09757668b957c4?h=480&quality=medium&resize=1&w=360"
+                      alt=""
+                    />
+                  </div>
+                  <div class="free-2"><span>Free Now</span></div>
                 </div>
-                  <div class="lta-row-cell">
-                    <div class="lta-row-cell-img">
-                      <img src="https://cdn1.epicgames.com/offer/4750c68b2bfa4f43933b81cfd5cc510c/EGS_EASPORTSFC24StandardEdition_EACanada_S2_1200x1600-197e29be57c4293d396cae2ae4a208b2?h=480&quality=medium&resize=1&w=360" alt="Fifa">
-                    </div>
-                    <div class="lta-row-cell-text">
-                      <div class="lta-row-cell-text-title">
-                        EA SPORTS FC™ 24
-                      </div>
-                      <div class="lta-row-cell-text-subtitle">
-                        TRY 1,199.99
-                      </div>
-                    </div>
-                  </div>
-                  <div class="lta-row-cell">
-                    <div class="lta-row-cell-img">
-                      <img src="https://cdn1.epicgames.com/0584d2013f0149a791e7b9bad0eec102/offer/GTAV_EGS_Artwork_1200x1600_Portrait%20Store%20Banner-1200x1600-382243057711adf80322ed2aeea42191.jpg?h=480&quality=medium&resize=1&w=360" alt="Fifa">
-                    </div>
-                    <div class="lta-row-cell-text">
-                      <div class="lta-row-cell-text-title">
-                        Grand Theft Auto V
-                      </div>
-                      <div class="lta-row-cell-text-subtitle">
-                        TRY 551.25
-                      </div>
-                    </div>
-                  </div>
-                  <div class="lta-row-cell">
-                    <div class="lta-row-cell-img">
-                      <img src="https://cdn1.epicgames.com/offer/0460f46401ae4bdcadbc931d30028015/EGS_MaddenNFL24_Tiburon_S2_1200x1600-257b71373343e3630860289a12ce93f4?h=480&quality=medium&resize=1&w=360" alt="Fifa">
-                    </div>
-                    <div class="lta-row-cell-text">
-                      <div class="lta-row-cell-text-title">
-                        Madden NFL 24
-                      </div>
-                      <div class="lta-row-cell-text-subtitle">
-                        TRY 1,199.99
-                      </div>
-                    </div>
-                  </div>
-                  <div class="lta-row-cell">
-                    <div class="lta-row-cell-img">
-                      <img src="https://cdn1.epicgames.com/offer/236c74b4cd2e4e3099cbe2ebdc9686fd/EGS_DeadIsland2_DeepSilverDambusterStudios_S2_1200x1600-efc5201842cf642eb45f73227cd0789b?h=480&quality=medium&resize=1&w=360" alt="Fifa">
-                    </div>
-                    <div class="lta-row-cell-text">
-                      <div class="lta-row-cell-text-title">
-                        Dead Island 2
-                      </div>
-                      <div class="lta-row-cell-text-subtitle">
-                        TRY 429
-                      </div>
-                    </div>
-                  </div>
-                  <div class="lta-row-cell">
-                    <div class="lta-row-cell-img">
-                      <img src="https://cdn1.epicgames.com/offer/4750c68b2bfa4f43933b81cfd5cc510c/EGS_EASPORTSFC24StandardEdition_EACanada_S2_1200x1600-197e29be57c4293d396cae2ae4a208b2?h=480&quality=medium&resize=1&w=360" alt="Fifa">
-                    </div>
-                    <div class="lta-row-cell-text">
-                      <div class="lta-row-cell-text-title">
-                        Dead by Daylight
-                      </div>
-                      <div class="lta-row-cell-text-subtitle">
-                        TRY 99
-                      </div>
-                    </div>
-                  </div>
+                <h3>Homeworld Remastered...</h3>
+                <h4>Free Now - Aug 03 at 06:00 PM</h4>
               </div>
-              <div class="lta-row2">
-                <div class="new-row-title">
-                  <h2 class="new-row-title-text"><span>Most Played</span></h2>
-                  <a class="new-row-title-button-link" href=""><span class="new-row-title-button">View More</span></a>
+              <div class=".games-free-x">
+                <div class="o">
+                  <div class="black">
+                    <img
+                      class="img"
+                      src="https://cdn1.epicgames.com/offer/5db7394e65044dd1bb083ee983e2b3a5/EGS_SeveredSteel_GreylockStudio_S2_1200x1600-42edb36730050be3d18171baac58a7f2?h=480&quality=medium&resize=1&w=360"
+                      alt=""
+                    />
+                  </div>
+                  <div class="free-2"><span>Free Now</span></div>
                 </div>
-                <div class="lta-row-cell">
-                  <div class="lta-row-cell-img">
-                    <img src="https://cdn1.epicgames.com/offer/fn/25BR_Quotient_EGS_Launcher_Blade_1200x1600_1200x1600-edf9499c496491fcbde374a8c73c357f?h=480&quality=medium&resize=1&w=360" alt="Fifa">
+                <h3>Severed Steel</h3>
+                <h4>Free Now - Aug 03 at 06:00 PM</h4>
+              </div>
+              <div class=".games-free-x">
+                <div class="o-1">
+                  <div class="black">
+                    <img
+                      class="img"
+                      src="https://cdn1.epicgames.com/spt-assets/764b2d57552c436590f50318bd7587f9/download-bloons-td-6-offer-100fo.jpg?h=480&quality=medium&resize=1&w=360"
+                      alt=""
+                    />
                   </div>
-                  <div class="lta-row-cell-text">
-                    <div class="lta-row-cell-text-title">
-                      Fortnite
-                    </div>
-                    <div class="lta-row-cell-text-subtitle">
-                      Free
-                    </div>
-                  </div>
+                  <div class="free-2-3"><span>COMING SOON</span></div>
                 </div>
-                <div class="lta-row-cell">
-                  <div class="lta-row-cell-img">
-                    <img src="https://cdn1.epicgames.com/offer/9773aa1aa54f4f7b80e44bef04986cea/EGS_RocketLeague_PsyonixLLC_S2_1200x1600-edcc4af1ea991205eb2346c6691cc99c?h=480&quality=medium&resize=1&w=360" alt="Fifa">
+                <h3>Bloons TD 6</h3>
+                <h4>Free Aug 03 - Aug 10</h4>
+              </div>
+              <div class=".games-free-x">
+                <div class="o-1">
+                  <div class="black">
+                    <img
+                      class="img"
+                      src="https://cdn1.epicgames.com/ff50f85ed609454e80ac46d9496da34d/offer/EGS_TheLichhasthrowntheworldintoatimelessloop_FourQuarters_S2-1200x1600-9ce7ff725ffafa800300b644df5936cd.jpg?h=480&quality=medium&resize=1&w=360"
+                      alt=""
+                    />
                   </div>
-                  <div class="lta-row-cell-text">
-                    <div class="lta-row-cell-text-title">
-                      Rocket League®
-                    </div>
-                    <div class="lta-row-cell-text-subtitle">
-                      Free
-                    </div>
-                  </div>
+  
+                  <div class="free-2-3"><span>COMING SOON</span></div>
                 </div>
-                <div class="lta-row-cell">
-                  <div class="lta-row-cell-img">
-                    <img src="https://cdn1.epicgames.com/0584d2013f0149a791e7b9bad0eec102/offer/GTAV_EGS_Artwork_1200x1600_Portrait%20Store%20Banner-1200x1600-382243057711adf80322ed2aeea42191.jpg?h=480&quality=medium&resize=1&w=360" alt="Fifa">
-                  </div>
-                  <div class="lta-row-cell-text">
-                    <div class="lta-row-cell-text-title">
-                      Grand Theft Auto V
-                    </div>
-                    <div class="lta-row-cell-text-subtitle">
-                      TRY 551.25
-                    </div>
-                  </div>
+                <div class="o-1-2">
+                  <h3 class="o-1-2-3">Loop Hero</h3>
+                  <h4>Free Aug 03 - Aug 10</h4>
                 </div>
-                <div class="lta-row-cell">
-                  <div class="lta-row-cell-img">
-                    <img src="https://cdn1.epicgames.com/offer/879b0d8776ab46a59a129983ba78f0ce/genshintall_1200x1600-4a5697be3925e8cb1f59725a9830cafc?h=480&quality=medium&resize=1&w=360" alt="Fifa">
-                  </div>
-                  <div class="lta-row-cell-text">
-                    <div class="lta-row-cell-text-title">
-                      Genshin Impact
-                    </div>
-                    <div class="lta-row-cell-text-subtitle">
-                      Free
-                    </div>
-                  </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+       <!-- Free Games END -->
+
+    <!-- 3 column row -->
+    <div class="lta-container new-row">
+      <div class="lta-rows">
+          <div class="lta-row1">
+            <div class="new-row-title">
+              <h2 class="new-row-title-text"><span>Top Sellers</span></h2>
+              <a class="new-row-title-button-link" href=""><span class="new-row-title-button">View More</span></a>
+            </div>
+              <div class="lta-row-cell">
+                <div class="lta-row-cell-img">
+                  <img src="https://cdn1.epicgames.com/offer/4750c68b2bfa4f43933b81cfd5cc510c/EGS_EASPORTSFC24StandardEdition_EACanada_S2_1200x1600-197e29be57c4293d396cae2ae4a208b2?h=480&quality=medium&resize=1&w=360" alt="Fifa">
                 </div>
-                <div class="lta-row-cell">
-                  <div class="lta-row-cell-img">
-                    <img src="https://cdn1.epicgames.com/offer/cbd5b3d310a54b12bf3fe8c41994174f/EGS_VALORANT_RiotGames_S2_1200x1600-b911781672bac23a556586fb92c42983?h=480&quality=medium&resize=1&w=360" alt="Fifa">
+                <div class="lta-row-cell-text">
+                  <div class="lta-row-cell-text-title">
+                    EA SPORTS FC™ 24
                   </div>
-                  <div class="lta-row-cell-text">
-                    <div class="lta-row-cell-text-title">
-                      VALORANT
-                    </div>
-                    <div class="lta-row-cell-text-subtitle">
-                      Free
-                    </div>
+                  <div class="lta-row-cell-text-subtitle">
+                    TRY 1,199.99
                   </div>
                 </div>
               </div>
-              <div class="lta-row3">
-                <div class="new-row-title">
-                  <h2 class="new-row-title-text"><span>Top Upcoming Wishlisted</span></h2>
-                  <a class="new-row-title-button-link" href=""><span class="new-row-title-button">View More</span></a>
+              <div class="lta-row-cell">
+                <div class="lta-row-cell-img">
+                  <img src="https://cdn1.epicgames.com/0584d2013f0149a791e7b9bad0eec102/offer/GTAV_EGS_Artwork_1200x1600_Portrait%20Store%20Banner-1200x1600-382243057711adf80322ed2aeea42191.jpg?h=480&quality=medium&resize=1&w=360" alt="Fifa">
                 </div>
-                <div class="lta-row-cell">
-                  <div class="lta-row-cell-img">
-                    <img src="https://cdn1.epicgames.com/spt-assets/2ae760629a384d5199cbefc612db7ac8/the-lord-of-the-rings-return-to-moria-tr0c9.png?h=480&quality=medium&resize=1&w=360" alt="Fifa">
+                <div class="lta-row-cell-text">
+                  <div class="lta-row-cell-text-title">
+                    Grand Theft Auto V
                   </div>
-                  <div class="lta-row-cell-text">
-                    <div class="lta-row-cell-text-title">
-                      The Lord of The Rings
-                    </div>
-                    <div class="lta-row-cell-text-subtitle">
-                      TRY 309
-                    </div>
+                  <div class="lta-row-cell-text-subtitle">
+                    TRY 551.25
                   </div>
                 </div>
-                <div class="lta-row-cell">
-                  <div class="lta-row-cell-img">
-                    <img src="https://cdn1.epicgames.com/spt-assets/04d5b86a93514949a3ace614d9e1e417/witchfire-obly4.jpg?h=480&quality=medium&resize=1&w=360" alt="Fifa">
+              </div>
+              <div class="lta-row-cell">
+                <div class="lta-row-cell-img">
+                  <img src="https://cdn1.epicgames.com/offer/0460f46401ae4bdcadbc931d30028015/EGS_MaddenNFL24_Tiburon_S2_1200x1600-257b71373343e3630860289a12ce93f4?h=480&quality=medium&resize=1&w=360" alt="Fifa">
+                </div>
+                <div class="lta-row-cell-text">
+                  <div class="lta-row-cell-text-title">
+                    Madden NFL 24
                   </div>
-                  <div class="lta-row-cell-text">
-                    <div class="lta-row-cell-text-title">
-                      Witchfire
-                    </div>
-                    <div class="lta-row-cell-text-subtitle">
-                      Free
-                    </div>
+                  <div class="lta-row-cell-text-subtitle">
+                    TRY 1,199.99
                   </div>
                 </div>
-                <div class="lta-row-cell">
-                  <div class="lta-row-cell-img">
-                    <img src="https://cdn1.epicgames.com/offer/azalea/Tall_1200x1600-9683c180c4902dccfd2d15af2bbe37c0?h=480&quality=medium&resize=1&w=360" alt="Fifa">
+              </div>
+              <div class="lta-row-cell">
+                <div class="lta-row-cell-img">
+                  <img src="https://cdn1.epicgames.com/offer/236c74b4cd2e4e3099cbe2ebdc9686fd/EGS_DeadIsland2_DeepSilverDambusterStudios_S2_1200x1600-efc5201842cf642eb45f73227cd0789b?h=480&quality=medium&resize=1&w=360" alt="Fifa">
+                </div>
+                <div class="lta-row-cell-text">
+                  <div class="lta-row-cell-text-title">
+                    Dead Island 2
                   </div>
-                  <div class="lta-row-cell-text">
-                    <div class="lta-row-cell-text-title">
-                      The Cycle: Frontier
-                    </div>
-                    <div class="lta-row-cell-text-subtitle">
-                      Coming Soon
-                    </div>
+                  <div class="lta-row-cell-text-subtitle">
+                    TRY 429
                   </div>
                 </div>
-                <div class="lta-row-cell">
-                  <div class="lta-row-cell-img">
-                    <img src="https://cdn1.epicgames.com/offer/ef7baa6ce017413ab33e7f7e3f466a96/EGS_Homeworld3_BlackbirdInteractive_S2_1200x1600-2080e2e3662c285b1c9efcb13f3a8d07?h=480&quality=medium&resize=1&w=360" alt="Fifa">
-                  </div>
-                  <div class="lta-row-cell-text">
-                    <div class="lta-row-cell-text-title">
-                      Homeworld 3
-                    </div>
-                    <div class="lta-row-cell-text-subtitle">
-                      TRY 1,199.99
-                    </div>
-                  </div>
+              </div>
+              <div class="lta-row-cell">
+                <div class="lta-row-cell-img">
+                  <img src="https://cdn1.epicgames.com/offer/4750c68b2bfa4f43933b81cfd5cc510c/EGS_EASPORTSFC24StandardEdition_EACanada_S2_1200x1600-197e29be57c4293d396cae2ae4a208b2?h=480&quality=medium&resize=1&w=360" alt="Fifa">
                 </div>
-                <div class="lta-row-cell">
-                  <div class="lta-row-cell-img">
-                    <img src="https://cdn1.epicgames.com/offer/c4763f236d08423eb47b4c3008779c84/EGS_AlanWake2_RemedyEntertainment_S2_1200x1600-c7c8091ddac0f9669c8e5905bca88aaa?h=480&quality=medium&resize=1&w=360" alt="Fifa">
+                <div class="lta-row-cell-text">
+                  <div class="lta-row-cell-text-title">
+                    Dead by Daylight
                   </div>
-                  <div class="lta-row-cell-text">
-                    <div class="lta-row-cell-text-title">
-                      Alan Wake 2
-                    </div>
-                    <div class="lta-row-cell-text-subtitle">
-                      TRY 599
-                    </div>
+                  <div class="lta-row-cell-text-subtitle">
+                    TRY 99
                   </div>
                 </div>
               </div>
           </div>
-          
+          <div class="lta-row2">
+            <div class="new-row-title">
+              <h2 class="new-row-title-text"><span>Most Played</span></h2>
+              <a class="new-row-title-button-link" href=""><span class="new-row-title-button">View More</span></a>
+            </div>
+            <div class="lta-row-cell">
+              <div class="lta-row-cell-img">
+                <img src="https://cdn1.epicgames.com/offer/fn/25BR_Quotient_EGS_Launcher_Blade_1200x1600_1200x1600-edf9499c496491fcbde374a8c73c357f?h=480&quality=medium&resize=1&w=360" alt="Fifa">
+              </div>
+              <div class="lta-row-cell-text">
+                <div class="lta-row-cell-text-title">
+                  Fortnite
+                </div>
+                <div class="lta-row-cell-text-subtitle">
+                  Free
+                </div>
+              </div>
+            </div>
+            <div class="lta-row-cell">
+              <div class="lta-row-cell-img">
+                <img src="https://cdn1.epicgames.com/offer/9773aa1aa54f4f7b80e44bef04986cea/EGS_RocketLeague_PsyonixLLC_S2_1200x1600-edcc4af1ea991205eb2346c6691cc99c?h=480&quality=medium&resize=1&w=360" alt="Fifa">
+              </div>
+              <div class="lta-row-cell-text">
+                <div class="lta-row-cell-text-title">
+                  Rocket League®
+                </div>
+                <div class="lta-row-cell-text-subtitle">
+                  Free
+                </div>
+              </div>
+            </div>
+            <div class="lta-row-cell">
+              <div class="lta-row-cell-img">
+                <img src="https://cdn1.epicgames.com/0584d2013f0149a791e7b9bad0eec102/offer/GTAV_EGS_Artwork_1200x1600_Portrait%20Store%20Banner-1200x1600-382243057711adf80322ed2aeea42191.jpg?h=480&quality=medium&resize=1&w=360" alt="Fifa">
+              </div>
+              <div class="lta-row-cell-text">
+                <div class="lta-row-cell-text-title">
+                  Grand Theft Auto V
+                </div>
+                <div class="lta-row-cell-text-subtitle">
+                  TRY 551.25
+                </div>
+              </div>
+            </div>
+            <div class="lta-row-cell">
+              <div class="lta-row-cell-img">
+                <img src="https://cdn1.epicgames.com/offer/879b0d8776ab46a59a129983ba78f0ce/genshintall_1200x1600-4a5697be3925e8cb1f59725a9830cafc?h=480&quality=medium&resize=1&w=360" alt="Fifa">
+              </div>
+              <div class="lta-row-cell-text">
+                <div class="lta-row-cell-text-title">
+                  Genshin Impact
+                </div>
+                <div class="lta-row-cell-text-subtitle">
+                  Free
+                </div>
+              </div>
+            </div>
+            <div class="lta-row-cell">
+              <div class="lta-row-cell-img">
+                <img src="https://cdn1.epicgames.com/offer/cbd5b3d310a54b12bf3fe8c41994174f/EGS_VALORANT_RiotGames_S2_1200x1600-b911781672bac23a556586fb92c42983?h=480&quality=medium&resize=1&w=360" alt="Fifa">
+              </div>
+              <div class="lta-row-cell-text">
+                <div class="lta-row-cell-text-title">
+                  VALORANT
+                </div>
+                <div class="lta-row-cell-text-subtitle">
+                  Free
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="lta-row3">
+            <div class="new-row-title">
+              <h2 class="new-row-title-text"><span>Top Upcoming Wishlisted</span></h2>
+              <a class="new-row-title-button-link" href=""><span class="new-row-title-button">View More</span></a>
+            </div>
+            <div class="lta-row-cell">
+              <div class="lta-row-cell-img">
+                <img src="https://cdn1.epicgames.com/spt-assets/2ae760629a384d5199cbefc612db7ac8/the-lord-of-the-rings-return-to-moria-tr0c9.png?h=480&quality=medium&resize=1&w=360" alt="Fifa">
+              </div>
+              <div class="lta-row-cell-text">
+                <div class="lta-row-cell-text-title">
+                  The Lord of The Rings
+                </div>
+                <div class="lta-row-cell-text-subtitle">
+                  TRY 309
+                </div>
+              </div>
+            </div>
+            <div class="lta-row-cell">
+              <div class="lta-row-cell-img">
+                <img src="https://cdn1.epicgames.com/spt-assets/04d5b86a93514949a3ace614d9e1e417/witchfire-obly4.jpg?h=480&quality=medium&resize=1&w=360" alt="Fifa">
+              </div>
+              <div class="lta-row-cell-text">
+                <div class="lta-row-cell-text-title">
+                  Witchfire
+                </div>
+                <div class="lta-row-cell-text-subtitle">
+                  Free
+                </div>
+              </div>
+            </div>
+            <div class="lta-row-cell">
+              <div class="lta-row-cell-img">
+                <img src="https://cdn1.epicgames.com/offer/azalea/Tall_1200x1600-9683c180c4902dccfd2d15af2bbe37c0?h=480&quality=medium&resize=1&w=360" alt="Fifa">
+              </div>
+              <div class="lta-row-cell-text">
+                <div class="lta-row-cell-text-title">
+                  The Cycle: Frontier
+                </div>
+                <div class="lta-row-cell-text-subtitle">
+                  Coming Soon
+                </div>
+              </div>
+            </div>
+            <div class="lta-row-cell">
+              <div class="lta-row-cell-img">
+                <img src="https://cdn1.epicgames.com/offer/ef7baa6ce017413ab33e7f7e3f466a96/EGS_Homeworld3_BlackbirdInteractive_S2_1200x1600-2080e2e3662c285b1c9efcb13f3a8d07?h=480&quality=medium&resize=1&w=360" alt="Fifa">
+              </div>
+              <div class="lta-row-cell-text">
+                <div class="lta-row-cell-text-title">
+                  Homeworld 3
+                </div>
+                <div class="lta-row-cell-text-subtitle">
+                  TRY 1,199.99
+                </div>
+              </div>
+            </div>
+            <div class="lta-row-cell">
+              <div class="lta-row-cell-img">
+                <img src="https://cdn1.epicgames.com/offer/c4763f236d08423eb47b4c3008779c84/EGS_AlanWake2_RemedyEntertainment_S2_1200x1600-c7c8091ddac0f9669c8e5905bca88aaa?h=480&quality=medium&resize=1&w=360" alt="Fifa">
+              </div>
+              <div class="lta-row-cell-text">
+                <div class="lta-row-cell-text-title">
+                  Alan Wake 2
+                </div>
+                <div class="lta-row-cell-text-subtitle">
+                  TRY 599
+                </div>
+              </div>
+            </div>
+          </div>
       </div>
-        <!-- 3 column row END -->
+      
+  </div>
+    <!-- 3 column row END -->
+
     <!-- Trending -->
     <div class="trn-container">
       <div class="trn-header">
@@ -1736,7 +1868,7 @@
             ><i class="fa-brands fa-youtube fa-2xl"></i
           ></a>
 
-          <a href="#body" id="backtotop"><i class="fas fa-arrow-alt-circle-up"></i></a>
+          <a href="#navbar" id="backtotop"><i class="fa-sharp fa-solid fa-chevron-up"></i></i></a>
         </div>
         <div class="row">
           <div class="col">
@@ -1769,8 +1901,8 @@
               <li><a href="https://www.epicgames.com/site/en-US/news">Epic Newsroom</a></li>
             </ul>
           </div>
-        <!-- </div>
-        <div class="row"> -->
+        </div>
+        <div class="row">
           <div class="col">
             <h4>Made By Epic Games</h4>
             <br />
@@ -1789,7 +1921,7 @@
             </ul>
           </div>
         </div>
-        <hr class="mobil-border" />
+        <hr class="mobil-border"   style="height:2px;border-width:0;color:gray;background-color:gray"/>
       </div>
       <div class="epic">
         <div class="story">
@@ -1802,14 +1934,15 @@
             names are the trademarks of their respective owners.
           </p>
         </div>
-        <div class="search">
+        <div class="footer-icon">
           <ul>
             <li><a href="https://www.epicgames.com/site/en-US/tos">Terms of Service</a></li>
             <li><a href="https://www.epicgames.com/site/en-US/privacypolicy">Privacy Policy</a></li>
             <li><a href="https://www.epicgames.com/site/en-US/store-refund-policy">Store Refund Policy</a></li>
           </ul>
           </div>
-          <div class="right-icon d-none"><ul><li>
+          <div class="right-icon"><ul>
+            <li>
             <a href="https://store.epicgames.com/en-US/" class="icons"
               ><img src="images/epic.png" alt="" class="epic-icon"
             /></a></li>
