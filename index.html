@@ -27,12 +27,13 @@
     <link rel="stylesheet" href="css/GamesWithAchievements.css" />
     <link rel="stylesheet" href="css/LastThreeApp.css" />
     <link rel="stylesheet" href="css/Trending.css">
+    <link rel="stylesheet" href="css/free.css">
     <!-- //CSS -->
     <title>Document</title>
   </head>
   <body>
     <!-- navbar -->
-    <div class="navbar">
+    <div class="navbar" id="navbar">
       <nav>
         <ul>
           <li class="logo">
@@ -75,30 +76,51 @@
     </div>
     <!-- navbar END -->
     <!-- Search -->
-    <div class="x">
-      <div class="search">
-        <div class="search-main">
-          <input type="text" class="tbox-search" placeholder="Search store" />
+    <div class="nav-x">
+      <div class="search-nav">
+        <div class="search-main-nav">
           <a class="btn-search">
-            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-magnifying-glass nav-fa"></i>
           </a>
+          <input type="text" class="tbox-search" placeholder="Search store" />
         </div>
         <nav class="search-nav">
-          <li class="itemx">
-            <a href="https://store.epicgames.com/en-US/">Discover</a>
-          </li>
-          <li class="itemx">
-            <a
-              href="https://store.epicgames.com/en-US/browse?sortBy=releaseDate&sortDir=DESC&category=Game&count=40"
-              >Browse</a
-            >
-          </li>
-          <li class="itemx">
-            <a
-              href="https://store.epicgames.com/en-US/browse?sortBy=releaseDate&sortDir=DESC&category=Game&count=40"
-              >News</a
-            >
-          </li>
+          <ul>
+            <li class="itemx itemx-discover">
+              <a href="#">Discover</a>
+              <div class="sub-menu">
+                <ul>
+                  <li>
+                    <a href="https://store.epicgames.com/en-US/">Discover</a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://store.epicgames.com/en-US/browse?sortBy=releaseDate&sortDir=DESC&category=Game&count=40"
+                      >Browse</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://store.epicgames.com/en-US/browse?sortBy=releaseDate&sortDir=DESC&category=Game&count=40"
+                      >News</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="itemx itemx-browse">
+              <a
+                href="https://store.epicgames.com/en-US/browse?sortBy=releaseDate&sortDir=DESC&category=Game&count=40"
+                >Browse</a
+              >
+            </li>
+            <li class="itemx itemx-news">
+              <a
+                href="https://store.epicgames.com/en-US/browse?sortBy=releaseDate&sortDir=DESC&category=Game&count=40"
+                >News</a
+              >
+            </li>
+          </ul>
         </nav>
       </div>
     </div>
@@ -619,6 +641,90 @@
       
   </div>
     <!-- Popular Games END-->
+
+      <!-- Free Games -->
+      <div class="free-ga">
+        <div class="free-x">
+          <section class="free-Games">
+            <div class="games-title">
+              <ul>
+                <li><i class="fa-solid fa-gift fre-fa"></i></li>
+                <li>
+                  <h3 class="free-title-f">Free Games</h3>
+                </li>
+  
+                <li class="view"><a href="#" class="view-a">View More</a></li>
+              </ul>
+            </div>
+  
+
+          
+            <div class="free-y-games">
+              <div class=".games-free-x">
+                <div class="o-free-games">
+                  <div class="black">
+                    <img
+                      class="img"
+                      src="https://cdn1.epicgames.com/offer/4311a0ee99724086b1a4f261b827d038/EGS_HomeworldRemasteredCollection_GearboxSoftware_S2_1200x1600-1cae8117d05be2d91d09757668b957c4?h=480&quality=medium&resize=1&w=360"
+                      alt=""
+                    />
+                  </div>
+                  <div class="free-2"><span>Free Now</span></div>
+                </div>
+                <h3>Homeworld Remastered...</h3>
+                <h4>Free Now - Aug 03 at 06:00 PM</h4>
+              </div>
+              <div class=".games-free-x">
+                <div class="o">
+                  <div class="black">
+                    <img
+                      class="img"
+                      src="https://cdn1.epicgames.com/offer/5db7394e65044dd1bb083ee983e2b3a5/EGS_SeveredSteel_GreylockStudio_S2_1200x1600-42edb36730050be3d18171baac58a7f2?h=480&quality=medium&resize=1&w=360"
+                      alt=""
+                    />
+                  </div>
+                  <div class="free-2"><span>Free Now</span></div>
+                </div>
+                <h3>Severed Steel</h3>
+                <h4>Free Now - Aug 03 at 06:00 PM</h4>
+              </div>
+              <div class=".games-free-x">
+                <div class="o-1">
+                  <div class="black">
+                    <img
+                      class="img"
+                      src="https://cdn1.epicgames.com/spt-assets/764b2d57552c436590f50318bd7587f9/download-bloons-td-6-offer-100fo.jpg?h=480&quality=medium&resize=1&w=360"
+                      alt=""
+                    />
+                  </div>
+                  <div class="free-2-3"><span>COMING SOON</span></div>
+                </div>
+                <h3>Bloons TD 6</h3>
+                <h4>Free Aug 03 - Aug 10</h4>
+              </div>
+              <div class=".games-free-x">
+                <div class="o-1">
+                  <div class="black">
+                    <img
+                      class="img"
+                      src="https://cdn1.epicgames.com/ff50f85ed609454e80ac46d9496da34d/offer/EGS_TheLichhasthrowntheworldintoatimelessloop_FourQuarters_S2-1200x1600-9ce7ff725ffafa800300b644df5936cd.jpg?h=480&quality=medium&resize=1&w=360"
+                      alt=""
+                    />
+                  </div>
+  
+                  <div class="free-2-3"><span>COMING SOON</span></div>
+                </div>
+                <div class="o-1-2">
+                  <h3 class="o-1-2-3">Loop Hero</h3>
+                  <h4>Free Aug 03 - Aug 10</h4>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+       <!-- Free Games END -->
+
     <!-- 3 column row -->
     <div class="lta-container new-row">
       <div class="lta-rows">
@@ -839,6 +945,7 @@
       
   </div>
     <!-- 3 column row END -->
+
     <!-- Trending -->
     <div class="trn-container">
       <div class="trn-header">
@@ -1762,7 +1869,7 @@
             ><i class="fa-brands fa-youtube fa-2xl"></i
           ></a>
 
-          <a href="#body" id="backtotop"><i class="fas fa-arrow-alt-circle-up"></i></a>
+          <a href="#navbar" id="backtotop"><i class="fa-sharp fa-solid fa-chevron-up"></i></i></a>
         </div>
         <div class="row">
           <div class="col">
@@ -1795,8 +1902,8 @@
               <li><a href="https://www.epicgames.com/site/en-US/news">Epic Newsroom</a></li>
             </ul>
           </div>
-        <!-- </div>
-        <div class="row"> -->
+        </div>
+        <div class="row">
           <div class="col">
             <h4>Made By Epic Games</h4>
             <br />
@@ -1815,7 +1922,7 @@
             </ul>
           </div>
         </div>
-        <hr class="mobil-border" />
+        <hr class="mobil-border"   style="height:2px;border-width:0;color:gray;background-color:gray"/>
       </div>
       <div class="epic">
         <div class="story">
@@ -1828,14 +1935,15 @@
             names are the trademarks of their respective owners.
           </p>
         </div>
-        <div class="search">
+        <div class="footer-icon">
           <ul>
             <li><a href="https://www.epicgames.com/site/en-US/tos">Terms of Service</a></li>
             <li><a href="https://www.epicgames.com/site/en-US/privacypolicy">Privacy Policy</a></li>
             <li><a href="https://www.epicgames.com/site/en-US/store-refund-policy">Store Refund Policy</a></li>
           </ul>
           </div>
-          <div class="right-icon d-none"><ul><li>
+          <div class="right-icon"><ul>
+            <li>
             <a href="https://store.epicgames.com/en-US/" class="icons"
               ><img src="images/epic.png" alt="" class="epic-icon"
             /></a></li>
