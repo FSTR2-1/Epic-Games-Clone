@@ -8,6 +8,7 @@ body {
   position: sticky;
   top: 0;
   padding-top: 20px;
+  z-index: 9;
 }
 .search-nav {
   width: 80%;
@@ -62,6 +63,10 @@ body {
 .itemx-discover a {
   color: whitesmoke;
 }
+.nav-fa {
+  font-size: 16px;
+  color: white;
+}
 .btn-search {
   display: flex;
   justify-content: center;
@@ -79,6 +84,13 @@ body {
   display: none;
 }
 @media (max-width: 600px) {
+  .search-main-nav {
+    background-color: black;
+  }
+  .search-main-nav:hover {
+    background-color: #3f3f3f;
+  }
+
   .tbox-search {
     width: 0px;
   }
