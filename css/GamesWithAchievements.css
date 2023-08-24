@@ -95,7 +95,7 @@ body {
         display: -webkit-inline-box;
         width: 90%;
         max-width: 100%;
-        gap: 15px;
+        gap: 30px;
         margin-top: 20px;
     }
     .section-title {
@@ -264,7 +264,7 @@ body {
         display: -webkit-inline-box;
         width: 90%;
         max-width: 100%;
-        gap: 15px;
+        gap: 30px;
         margin-bottom: 40px;
         margin-top: 20px;
     }
@@ -435,7 +435,7 @@ body {
         display: -webkit-inline-box;
         width: 90%;
         max-width: 100%;
-        gap: 15px;
+        gap: 30px;
         margin-bottom: 20px;
         margin-top: 20px;
     }
@@ -606,7 +606,7 @@ body {
         display: -webkit-inline-box;
         width: 90%;
         max-width: 100%;
-        gap: 15px;
+        gap: 30px;
         margin-bottom: 20px;
         margin-top: 20px;
     }
