@@ -31,7 +31,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 30px;
+    gap: 40px;
     line-height: 1.8;
     letter-spacing: 0.2px;
 }
@@ -200,7 +200,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 30px;
+    gap: 40px;
     line-height: 1.8;
     letter-spacing: 0.2px;
     
@@ -371,7 +371,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 30px;
+    gap: 40px;
     line-height: 1.8;
     letter-spacing: 0.2px;
 }
@@ -542,7 +542,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 30px;
+    gap: 40px;
     line-height: 1.8;
     letter-spacing: 0.2px;
 }
