@@ -9,6 +9,7 @@ body {
     margin: 0px;
     background-color: rgb(18, 18, 18);
     padding: 0px;
+    overflow-x: hidden;
 }
 .trn-container {
     margin-left: auto;
