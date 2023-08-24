@@ -197,7 +197,22 @@ body {
 
 
 @media (max-width: 767px) {
-    
+    .dash {
+        margin-left: 10px;
+        margin-bottom: 12px;
+    }
+    .dash1 {
+        font-size: 30px
+        margin-right: 10px;
+    }
+    .dash2 {
+        font-size: 30px
+        margin-right: 10px;
+    }
+    .dash3 {
+        font-size: 30px
+        margin-right: 10px;
+    }
     .store {
         display: none;
     }
