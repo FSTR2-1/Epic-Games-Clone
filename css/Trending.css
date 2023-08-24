@@ -127,13 +127,16 @@ body {
         grid-template-columns: auto;
         width: 90%;
         max-width: 100%;
-        gap: 5px;
-        margin-left: unset;
+        gap: 15px;
         margin-top: 50px;
     }
     .trn-header {
         position: absolute;
         gap: 130px;
+    }
+    .trn-header > a {
+        margin-left: 40px;
+        text-decoration: none;
     }
     .base-game {
         font-size: 9px;
