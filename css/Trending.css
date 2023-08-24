@@ -118,6 +118,9 @@ body {
     
 }
 @media (max-width: 767px) {
+    body {
+        overflow-x: hidden;
+    }
     .trn-container {
         width: 100%;
         overflow: scroll;
