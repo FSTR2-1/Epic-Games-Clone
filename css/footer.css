@@ -81,6 +81,18 @@ body {
     width: 50%;
     margin-bottom: 30px;
   }
+  .footer {
+    padding-left: 20px;
+  }
+  .unreal-icon {
+    margin-right: 0px !important;
+  }
+  .epic-icon {
+    margin-right: 0px !important;
+  }
+  .fa-sharp {
+    margin-right: 0px !important;
+  }
 }
 @media (max-width: 574px) {
   .col {
