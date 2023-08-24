@@ -15,6 +15,7 @@ body {
     width: 100vw;
     height: 51.8px;
     background-color: #2A2A2A;
+    padding-left: 40px;
 }
 .navbar > nav > ul {
     list-style-type: none;
