@@ -128,6 +128,9 @@
   .mbl-hide {
     display: none;
   }
+  .d-hide {
+    display: flex!important;
+  }
 }
 
 .main-slider-mobile {

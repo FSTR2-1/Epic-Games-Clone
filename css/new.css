@@ -196,3 +196,14 @@ body {
   line-height: 20px;
   letter-spacing: 0px;
 }
+
+
+@media (max-width: 767px) {
+  .carousel-wrapper {
+    overflow-x: scroll;
+  }
+  .summer-spotlight .container {
+    width: 90%;
+  }
+}
+
